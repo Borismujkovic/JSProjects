@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Animated Navigation</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="overlay overlay-slide-left" id="overlay">
+      <nav>
+        <ul>
+          <li id="nav-1" class="slide-out-1"><a href="#home">Home</a></li>
+          <li id="nav-2" class="slide-out-2">
+            <a href="#about">Photon project</a>
+          </li>
+          <li id="nav-3" class="slide-out-3"><a href="#skills">JS Quiz</a></li>
+          <li id="nav-4" class="slide-out-4">
+            <a href="#projects">Random Picker</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+    <div id="header">
+      <h1>Small JavaScript Projects</h1>
+      <div class="menu-bars" id="menu-bars">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+      </div>
+    </div>
+    <section id="home">
+      <div class="project" id="photon">
+        <img
+          src="https://cdn-icons-png.flaticon.com/128/3781/3781609.png"
+          alt=""
+        />
+        <h2>Photon Project</h2>
+      </div>
+      <div class="project" id="quiz">
+        <img
+          src="https://cdn-icons-png.flaticon.com/128/3406/3406828.png"
+          alt=""
+        />
+        <h2>JS Quiz</h2>
+      </div>
+      <div class="project" id="picker">
+        <img
+          src="https://cdn-icons-png.flaticon.com/128/2415/2415054.png"
+          alt=""
+        />
+        <h2>Random Picker</h2>
+      </div>
+    </section>
+    <script src="script.js"></script>
+  </body>
+</html>
