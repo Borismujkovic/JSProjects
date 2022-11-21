@@ -42,17 +42,17 @@ aPicker.append(naslovPicker)
 photon.addEventListener("click", openPhoton);
 
 function openPhoton() {
-  aPhoton.setAttribute('href', "../Photos/photos.html") 
+  aPhoton.setAttribute('href', "./photos.html") 
 }
 
 quiz.addEventListener("click", openQuiz);
 
 function openQuiz() {
-  aQuiz.setAttribute('href', "../QuizApp/quiz.html") 
+  aQuiz.setAttribute('href', "./quiz.html") 
 }
 
 picker.addEventListener("click", openPicker);
 
 function openPicker() {
-  aPicker.setAttribute('href', "../Picker/picker.html") 
+  aPicker.setAttribute('href', "./picker.html") 
 }
